@@ -1,0 +1,6 @@
+-   id: checkstyle-java
+    name: Checkstyle hook for for Java
+    description: Formats Java source code with checkstyles. 
+    entry: ./gradlew checkstyleModified -PbaseBranch=origin/master
+    language: script
+    files: \.java$
